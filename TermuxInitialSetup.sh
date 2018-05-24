@@ -42,7 +42,7 @@ printf "%s\n" "shortcut.create-session = ctrl + t" "shortcut.next-session = ctrl
 
 sleep 1
 
-printf "Bienvenido." > ~/../usr/etc/motd
+printf "Bienvenido. \n" > ~/../usr/etc/motd
 
 sleep 1
 
