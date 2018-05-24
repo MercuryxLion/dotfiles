@@ -34,6 +34,10 @@ printf "%s\n" "youtube-dl \$1" > ~/bin/termux-url-opener
 
 sleep 5
 
+mkdir -p ~/.termux
+
+sleep 1
+
 printf "%s\n" "shortcut.create-session = ctrl + t" "shortcut.next-session = ctrl + 2" "shortcut.previous-session = ctrl + 1" "shortcut.rename-session = ctrl + n" "bell-character=ignore" > ~/.termux/termux.properties 
 
 sleep 1
