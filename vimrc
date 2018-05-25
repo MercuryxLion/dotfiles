@@ -2,15 +2,12 @@
 "set nocompatible              " Required for vundle 
 "filetype off                  " Required for vundle
 
-" Set the runtime path to include Vundle and initialize
-"set rtp+=~/.vim/bundle/Vundle.vim
+
+"set rtp+=~/.vim/bundle/Vundle.vim	" Set the runtime path to include Vundle and initialize
 "call vundle#begin()
-" Let Vundle manage Vundle, required
-"Plugin 'VundleVim/Vundle.vim'
-" Emmet plugin for vim
-"Plugin 'mattn/emmet-vim'
-" Dracula theme plugin
-"Plugin 'dracula/vim'
+"Plugin 'VundleVim/Vundle.vim'		" Let Vundle manage Vundle, required
+"Plugin 'mattn/emmet-vim'			" Emmet plugin for vim
+
 "**************************************************************
 
 
