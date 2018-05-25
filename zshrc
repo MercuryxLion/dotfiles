@@ -1,14 +1,21 @@
+#********************************************************
 #TERMUX
 
 # If you come from bash you might have to change your $PATH.
 #  export PATH="/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/usr/bin/applets"
 
-# Path to your oh-my-zsh installation.
+# Path to ohmyzsh
 #  export ZSH=/data/data/com.termux/files/home/.oh-my-zsh
+#********************************************************
 
-#Standard
+
+#********************************************************
+#PC
+
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/lion/.oh-my-zsh
+#  export ZSH=/home/lion/.oh-my-zsh
+
+#********************************************************
 
 # Set zsh theme
 ZSH_THEME="ys"
@@ -23,7 +30,6 @@ plugins=(
   web-search
 )
 
-# Path to ohmyzsh
 source $ZSH/oh-my-zsh.sh
 
 #Language environment
@@ -53,9 +59,9 @@ printf "\n"
 #Personal aliases
 ##Alias to paste things to termbin.com
 alias psh="nc termbin.com 9999"
+
 ##Alias to start a recording for Asciinema.org
 alias asr="asciinema rec -c '/bin/zsh -l'"
-
 
 
 #Load tmux

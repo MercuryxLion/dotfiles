@@ -1,15 +1,19 @@
-set nocompatible              " Required for vundle 
-filetype off                  " Required for vundle
+"**************************************************************
+"set nocompatible              " Required for vundle 
+"filetype off                  " Required for vundle
 
 " Set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
 " Let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+"Plugin 'VundleVim/Vundle.vim'
 " Emmet plugin for vim
-Plugin 'mattn/emmet-vim'
+"Plugin 'mattn/emmet-vim'
 " Dracula theme plugin
-Plugin 'dracula/vim'
+"Plugin 'dracula/vim'
+"**************************************************************
+
+
 syntax enable "Enable syntax
 set tabstop=4 "Number of visual spaces per tab
 set softtabstop=4 "Number of spaces per tab when editing
@@ -23,7 +27,8 @@ set lazyredraw "Redraw only when we need to
 set showmatch "Highlight matching parenthesis, brackets
 set incsearch "Search as characters are entered
 
-
+"**************************************************************
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+"call vundle#end()            " required
+"filetype plugin indent on    " required
+"**************************************************************
