@@ -1,0 +1,1 @@
+printf "%s\n" "shortcut.create-session = ctrl + t" "shortcut.next-session = ctrl + 2" "shortcut.previous-session = ctrl + 1" "shortcut.rename-session = ctrl + n" "bell-character=ignore" > ~/.termux/termux.properties 

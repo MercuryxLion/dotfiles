@@ -4,7 +4,7 @@
 # If you come from bash you might have to change your $PATH.
 #  export PATH="/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/usr/bin/applets"
 
-# Path to ohmyzsh
+# Path to your oh-my-zsh installation.
 #  export ZSH=/data/data/com.termux/files/home/.oh-my-zsh
 #********************************************************
 
