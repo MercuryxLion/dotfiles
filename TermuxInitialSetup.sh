@@ -8,7 +8,7 @@ apt-get upgrade -y
 
 sleep 5
 
-apt-get install -y tmux zip vim openssh gnupg2 tar coreutils net-tools wget unrar unzip termux-api python ffmpeg tree sed pass less htop asciinema grep man netcat curl lynx nmap zsh
+apt-get install -y colordiff mpv neofetch nginx ranger rclone transmission tmux zip vim openssh gnupg tar coreutils net-tools wget unrar unzip termux-api python ffmpeg tree sed pass less htop asciinema grep man netcat curl lynx nmap zsh
 
 sleep 5
 
